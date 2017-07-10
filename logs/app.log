@@ -1,0 +1,22 @@
+2017-06-08 13:48:22 INFO org.springframework.web.context.ContextLoader.initWebApplicationContext(304) | Root WebApplicationContext: initialization started
+2017-06-08 13:48:22 INFO org.springframework.context.support.AbstractApplicationContext.prepareRefresh(582) | Refreshing Root WebApplicationContext: startup date [Thu Jun 08 13:48:22 CST 2017]; root of context hierarchy
+2017-06-08 13:48:22 INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-06-08 13:48:23 INFO org.springframework.web.context.ContextLoader.initWebApplicationContext(344) | Root WebApplicationContext: initialization completed in 657 ms
+2017-06-08 13:48:23 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean(489) | FrameworkServlet 'spring': initialization started
+2017-06-08 13:48:23 INFO org.springframework.context.support.AbstractApplicationContext.prepareRefresh(582) | Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Thu Jun 08 13:48:23 CST 2017]; parent: Root WebApplicationContext
+2017-06-08 13:48:23 INFO org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-servlet.xml]
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/check_balance] onto handler '/check_balance'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/saveMoney] onto handler '/saveMoney'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/takeMoney] onto handler '/takeMoney'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/transfer] onto handler '/transfer'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/forward/transfer.do] onto handler 'homepageController'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/forward/save_money.do] onto handler 'homepageController'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/forward/check_balance.do] onto handler 'homepageController'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/forward/take_money.do] onto handler 'homepageController'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/forward/reLogin.do] onto handler 'homepageController'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/login/check.do] onto handler 'loginController'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/login/toStart.do] onto handler 'loginController'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/backHomepage.do] onto handler '/saveMoney'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(362) | Mapped URL path [/take_money_action.do] onto handler '/takeMoney'
+2017-06-08 13:48:24 INFO org.springframework.web.servlet.FrameworkServlet.initServletBean(508) | FrameworkServlet 'spring': initialization completed in 812 ms
+2017-06-08 13:48:49 INFO com.dayuan.controller.HomepageController.checkBalance(28) | 用户请求验证用户名和密码{}
